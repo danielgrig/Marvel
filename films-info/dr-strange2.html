@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style/film-info.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../player/playerjs.js" type="text/javascript"></script>
+    <title>Films</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+        </a>
+    </header>
+    <nav>
+
+        <div class="menuh">
+            <ul class="menu">
+                <li><a href="../films.html">Фильмы</a></li>
+                <li><a href="../index.html">Главная</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="films">
+        <h2>Доктор Стрэндж: В мультивселенной безумия</h2>
+        <div class="drop">
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2.jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(2).jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(3).jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(4).jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <ul class="descript">
+                    <li class="a"><b>Режиссёр:</b> Сэм Рэйми</li>
+                    <li class="b"><b>Длительность:</b> 126 мин</li>
+                    <li class="c"><b>Жанр:</b> Боевик, Фантастика, Ужасы, Приключения</li>
+                    <li class="d"><b>Премьера:</b> 4 мая 2022</li>
+                    <li class="e"><b>В главных ролях: </b> Бенедикт Камбербэтч, Сочил Гомес, Элизабет Олсен, Чиветел
+                        Эджиофор, Бенедикт Вонг,Майкл Стулбарг, Рэйчел Макадамс</li>
+                    <li class="f"><b>Персонажи:</b> Доктор Стрэндж, Америка Чавес, Алая Ведьма, Вонг, Барон Мордо</li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h4>Скриншоты</h4>
+            <hr>
+                <div class="screen">
+                    <img src="../pictures/films/screen-dr-strange2.jpg" alt="">
+                    <img src="../pictures/films/screen-dr-strange2(2).jpg" alt="">
+                    <img src="../pictures/films/screen-dr-strange2(3).jpg" alt="">
+                </div>
+            <hr>
+            <h2>Доктор Стрэндж: В мультивселенной безумия</h2>
+            <div id="player" poster="../pictures/player.jpg">
+            </div>
+            <span style="margin: 10%;">Предыдущий Фильм: <a href="./moon-knight.html"> Лунный Рыцарь</a></span>
+            <span>Следующий Фильм: <a href=""> Тор: Любовь и гром</a></span>
+            <hr>
+            <h3>Сюжет</h3>
+            <p class="plot">В пространстве между вселенными магический демон преследует Америку Чавес и альтернативную версию Доктора Стивена
+            Стрэнджа («Защитника» Стрэнджа), которые пытаются добраться до Книги Вишанти. Однако их настигает демон, и Стрэндж
+            пытается его сдержать. Он принимает решение забрать силу Америки, тем самым убив её. Однако в процессе, существо
+            высвобождается, и смертельно ранит Стрэнджа. Америка пытается добраться до книги, но её хватает демон и, испугавшись,
+            она открывает портал в виде звезды. Полуживой Стрэндж обрубает ленты демона и умирает, после чего Америка и мёртвый
+            «Защитник» Стрэндж переносятся на Землю-616.</p>
+        </div>
+    </main>
+    <script>
+        var player = new Playerjs({
+            id: "player",
+            file: "https://cdn1.kinogo.la/movies/7805a34c7758c727333b20f29c26c2cbd7ded4f0/06da0191511767b26ddbde5b8f08286d:2022061519//240.mp4",
+            poster: "../pictures/player.jpg"
+        });
+    </script>
+</body>
+
+</html>

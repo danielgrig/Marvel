@@ -1,0 +1,363 @@
+body {
+    background: url(../pictures/342092.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Verdana,
+    sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav {
+    border: none;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 20%;
+    margin-bottom: 20px;
+    background-color: rgba(77, 77, 77, 0.967);
+    display: flex;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
+}
+
+main {
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-top: 1px;
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+
+main>div>a>span {
+    background-color: #ff000067;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.menuh {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-content: start;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    margin-left: 45%;
+    margin-bottom: 1.2%;
+    margin-top: 1.2%;
+}
+
+.search {
+    border: none;
+    font-size: 17px;
+}
+
+.button {
+    background: url(../pictures/search1.jpg) no-repeat;
+    background-size: 40px 100%;
+    background-color: aqua;
+    width: 40px;
+    border: none;
+}
+
+.logo {
+    padding: 1% 7% 1% 2%;
+    margin: 2px 2px 2px 2%;
+    background: url(../pictures/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.drop {
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+    background-color: rgba(77, 77, 77, 0.967);
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
+}
+
+main>div>a {
+    margin: 5% 0% 5% 3%;
+    height: 340px;
+    width: 23%;
+    background-color: #1f81ae;
+    border-style: ridge;
+    color: rgb(100, 100, 100);
+    
+}
+
+.ironman {
+    background: url(../pictures/person/ironman.jpg);
+    background-size: 100% 100%;
+}
+
+.kapitan-america {
+    background: url(../pictures/person/kapitan-america.jpg);
+    background-size: 100% 100%;
+}
+
+.tor {
+    background: url(../pictures/person/tor.jpg);
+    background-size: 100% 100%;
+}
+
+.loki {
+    background: url(../pictures/person/loki.jpg);
+    background-size: 100% 100%;
+}
+
+.halk {
+    background: url(../pictures/person/halk.jpg);
+    background-size: 100% 100%;
+}
+
+.spider-man {
+    background: url(../pictures/person/spider-man.jpg);
+    background-size: 100% 100%;
+}
+
+.voitel {
+    background: url(../pictures/person/voitel.jpg);
+    background-size: 100% 100%;
+}
+
+.dr-strange {
+    background: url(../pictures/person/dr-strange.jpg);
+    background-size: 100% 100%;
+}
+
+.sokol {
+    background: url(../pictures/person/sokol.jpg);
+    background-size: 100% 100%;
+}
+
+.fiyri {
+    background: url(../pictures/person/fiyri.jpg);
+    background-size: 100% 100%;
+}
+
+.zimniy-soldat {
+    background: url(../pictures/person/zimniy-soldat.jpg);
+    background-size: 100% 100%;
+}
+
+.sokoliniy-glaz {
+    background: url(../pictures/person/sokoliniy-glaz.jpg);
+    background-size: 100% 100%;
+}
+
+.black-widow {
+    background: url(../pictures/person/black-widow.jpg);
+    background-size: 100% 100%;
+}
+
+.chel-muravey {
+    background: url(../pictures/person/chel-muravey.jpg);
+    background-size: 100% 100%;
+}
+
+.osa {
+    background: url(../pictures/person/osa.jpg);
+    background-size: 100% 100%
+}
+
+.black-panter {
+    background: url(../pictures/person/black-panter.jpg);
+    background-size: 100% 100%
+}
+
+.alaya-vedma {
+    background: url(../pictures/person/alaya-vedma.jpg);
+    background-size: 100% 100%
+}
+
+.vision {
+    background: url(../pictures/person/vision.jpg);
+    background-size: 100% 100%
+}
+
+.kapitan-marvel {
+    background: url(../pictures/person/kapitan-marvel.jpg);
+    background-size: 100% 100%
+}
+
+.star-lord {
+    background: url(../pictures/person/star-lord.jpg);
+    background-size: 100% 100%
+}
+
+.grut {
+    background: url(../pictures/person/grut.jpg);
+    background-size: 100% 100%
+}
+
+.gamora {
+    background: url(../pictures/person/gamora.jpg);
+    background-size: 100% 100%
+}
+
+.draks {
+    background: url(../pictures/person/draks.jpg);
+    background-size: 100% 100%
+}
+
+.raketa {
+    background: url(../pictures/person/raketa.jpg);
+    background-size: 100% 100%
+}
+
+.info {
+    padding: 5% 5% 5% 5%;
+}
+
+.personName {
+    margin: 0;
+}
+
+hr {
+    width: 90%;
+}
+
+
+
+
+
+
+ul {
+    display: block;
+    margin-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 1%;
+    list-style: none;
+    display: flex;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.944);
+    margin-right: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
+    0 10px 10px rgba(0, 0, 0, 0.258);
+}
+
+ul.menu>li>a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+ul.submenu>li>a:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+    transform: scale(1.07);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 100%;
+    left: 0;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+ul.submenu>li {
+    display: block;
+}
+
+ul.submenu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    text-decoration: none;
+}
+
+ul.submenu>li>a:hover {
+    text-decoration: underline;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+ul.submenu::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+ul.submenu::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #ff0000;
+}
+
+ul.submenu::-webkit-scrollbar-thumb:hover {
+    background-color: #56999f;
+}
+
+ul.submenu::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar {
+    width: 4px;
+}
